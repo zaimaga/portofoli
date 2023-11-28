@@ -1,0 +1,113 @@
+body{
+    padding: 20px;
+    color: rgb(83, 20, 20);
+    background-color: rgba(255, 170, 0, 0.10);
+}
+
+.kolona_lijeva{
+    border-right: 2px solid rgb(83, 20, 20); 
+    padding-left: 0px;
+}
+
+.kolona_lijeva p{
+    margin: 0px; 
+    margin-bottom: 10px;
+}
+
+.kolona_lijeva li{
+    padding: 5px 10px;
+}
+
+.kolona_lijeva ul a{
+    color: rgb(83, 20, 20);
+}
+
+.kolona_lijeva ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(rgba(70, 70, 79, 0.350),rgba(70, 70, 79, 0.15),rgba(70, 70, 79, 0.350));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 5px rgba(91, 87, 84, 0.5);
+    margin-bottom: 30px;
+}
+
+#slika1{
+    width: 100px;
+    text-align: right;
+    margin-left: 20px;
+}
+
+#pretrazivac{
+    text-align: center;
+}
+
+#pretrazivac input{
+    width: 80%;
+    height: 26px;
+    align-content: center;
+    border-radius: 13px;
+    color: rgb(83, 20, 20);
+    background-color: rgba(70, 70, 79, 0.20);
+}
+
+#pretrazivac button{
+    background-color: rgba(70, 70, 79, 0.20);
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+}
+
+#navigacija a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(83, 20, 20);
+    border: solid rgb(83, 20, 20) 2px;
+    background-image: linear-gradient(rgba(70, 70, 79, 0.40), rgba(70, 70, 79, 0.20), rgba(70, 70, 79, 0.40));
+    padding: 10px;
+    display: block;
+    width: 100px;
+}
+
+#navigacija a:hover{
+    background-image: linear-gradient(rgba(70, 70, 79, 0.20), rgba(70, 70, 79, 0.10), rgba(70, 70, 79, 0.20));
+    
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+p{
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(rgba(70, 70, 79, 0.40), rgba(70, 70, 79, 0.20), rgba(70, 70, 79, 0.40));
+    box-shadow: 3px 3px 5px rgba(91, 87, 84, 0.5);
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    background-image: linear-gradient(rgba(70, 70, 79, 0.350),rgba(70, 70, 79, 0.15),rgba(70, 70, 79, 0.350));
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px rgba(91, 87, 84, 0.5);
+}
+
+#ikone_footer{
+    font-size: 48px;
+    color: rgb(83, 20, 20);
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 991.5px){
+    #navigacija a{
+        padding: 3px;
+        width: 75px;
+    }
+}

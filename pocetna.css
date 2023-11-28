@@ -1,0 +1,13 @@
+#pocetna_slika{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+#pocetna_slika img{
+    width: 80%;
+}
+
+h2{
+    color: rgb(104, 77, 36);
+}

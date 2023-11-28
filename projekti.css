@@ -1,0 +1,51 @@
+main img{
+    width: 80%;
+    border: solid rgb(83, 20, 20) 2px;
+    text-align: center;
+    margin: 10px;
+}
+
+main p{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#red_lijevi{
+    text-align: center;
+    border-right: solid rgb(83, 20, 20) 2px;
+}
+
+#red_lijevi a{
+    text-decoration: none;
+    color: rgb(83, 20, 20);
+}
+
+#red_desni{
+    text-align: center;
+}
+
+#red_desni a{
+    text-decoration: none;
+    color: rgb(83, 20, 20);
+}
+
+.slika_maturski img{
+    width: 90%;
+    border: solid rgb(83, 20, 20) 2px;
+}
+
+#link_srednje{
+    color: rgb(83, 20, 20);
+}
+
+#naslov{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#maturski_fajl{
+    text-decoration: none;
+    color: rgb(83, 20, 20);
+    font-weight: bold;
+}

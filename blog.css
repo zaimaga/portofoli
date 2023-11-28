@@ -1,0 +1,44 @@
+.naslov{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.blog{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.blog img{
+    width: 90%;
+    border: solid rgb(83, 20, 20) 2px;
+}
+
+.blog a{
+    text-decoration: none;
+    color: rgb(83, 20, 20);
+}
+
+.blog p{
+    font-size: 70%;
+}
+
+.slika_blog img{
+    width: 90%;
+    border: solid rgb(83, 20, 20) 2px;
+    margin-top: 30%;
+}
+
+.video_blog video{
+    width: 90%;
+    border: solid rgb(83, 20, 20) 2px;
+    margin-top: 30%;
+}
+
+#datum{
+    font-size: 70%;
+}
+
+#linija_blog{
+    border: solid rgb(83, 20, 20) 2px;
+}
